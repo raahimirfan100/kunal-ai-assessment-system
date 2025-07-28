@@ -1,0 +1,73 @@
+[
+  {
+    "id": "q1",
+    "type": "mcq",
+    "title": "What is JavaScript?",
+    "content": "Choose the best description of JavaScript:",
+    "options": [
+      "A programming language for web development",
+      "A database management system",
+      "An operating system",
+      "A web browser"
+    ],
+    "correctAnswer": "A programming language for web development",
+    "points": 10,
+    "createdAt": "2025-07-26T22:41:39.140Z",
+    "updatedAt": "2025-07-26T22:41:39.140Z"
+  },
+  {
+    "id": "q2",
+    "type": "fill-in-blank",
+    "title": "Complete the sentence",
+    "content": "React is a _____ library for building user interfaces.",
+    "correctAnswer": "JavaScript",
+    "points": 5,
+    "createdAt": "2025-07-26T22:41:39.140Z",
+    "updatedAt": "2025-07-26T22:41:39.140Z"
+  },
+  {
+    "id": "q3",
+    "type": "coding",
+    "title": "Write a function to add two numbers",
+    "content": "Create a function that takes two numbers as parameters and returns their sum.",
+    "codeTemplate": "function add(a, b) {\n  // Your code here\n}",
+    "language": "javascript",
+    "points": 15,
+    "createdAt": "2025-07-26T22:41:39.140Z",
+    "updatedAt": "2025-07-26T22:41:39.140Z"
+  },
+  {
+    "type": "short-text",
+    "title": "AI",
+    "content": "What is LLM",
+    "points": 10,
+    "timeLimit": 60,
+    "id": "2s9fcrmh5mdkueale",
+    "createdAt": "2025-07-26T22:49:19.394Z",
+    "updatedAt": "2025-07-26T22:49:19.394Z"
+  },
+  {
+    "type": "drag-drop",
+    "title": "AI",
+    "content": "what is AI",
+    "points": 10,
+    "id": "wmvkq07swmdm0woby",
+    "createdAt": "2025-07-27T18:39:20.878Z",
+    "updatedAt": "2025-07-27T18:39:20.878Z"
+  },
+  {
+    "type": "mcq",
+    "title": "AI1",
+    "content": "Folio3.0",
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "points": 10,
+    "id": "kwp8xug78mdmqql7h",
+    "createdAt": "2025-07-28T06:42:26.909Z",
+    "updatedAt": "2025-07-28T06:42:26.909Z"
+  }
+]

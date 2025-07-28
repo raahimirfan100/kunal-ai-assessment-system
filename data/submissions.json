@@ -1,0 +1,118 @@
+[
+  {
+    "candidateId": "c1",
+    "testId": "f5vuahy5dmdkufbya",
+    "answers": [
+      {
+        "questionId": "q1",
+        "answer": "A programming language for web development",
+        "timeSpent": 0
+      },
+      {
+        "questionId": "q2",
+        "answer": "JavaScript",
+        "timeSpent": 0
+      },
+      {
+        "questionId": "q3",
+        "answer": "",
+        "timeSpent": 0
+      },
+      {
+        "questionId": "2s9fcrmh5mdkueale",
+        "answer": "AI",
+        "timeSpent": 0
+      }
+    ],
+    "startTime": "2025-07-27T20:23:02.842Z",
+    "maxScore": 40,
+    "isCompleted": true,
+    "id": "viotdi77umdm4m197",
+    "endTime": "2025-07-27T20:23:44.090Z",
+    "totalScore": 15,
+    "timeSpent": 37
+  },
+  {
+    "candidateId": "c1",
+    "testId": "0pi3ctfwgmdlw13vp",
+    "answers": [
+      {
+        "questionId": "q3",
+        "answer": "",
+        "timeSpent": 0
+      },
+      {
+        "questionId": "2s9fcrmh5mdkueale",
+        "answer": "iowhdaisnkds90u2w09uu09209u21kndsannlkfanlla",
+        "timeSpent": 0
+      }
+    ],
+    "startTime": "2025-07-27T20:28:48.823Z",
+    "maxScore": 25,
+    "isCompleted": true,
+    "id": "fc86uj0pymdm4tg7o",
+    "endTime": "2025-07-27T20:29:11.531Z",
+    "totalScore": 0,
+    "timeSpent": 20
+  },
+  {
+    "candidateId": "c1",
+    "testId": "t1",
+    "answers": [
+      {
+        "questionId": "q1",
+        "answer": "A programming language for web development",
+        "timeSpent": 0
+      },
+      {
+        "questionId": "q2",
+        "answer": "",
+        "timeSpent": 0
+      },
+      {
+        "questionId": "q3",
+        "answer": "",
+        "timeSpent": 0
+      }
+    ],
+    "startTime": "2025-07-27T20:41:16.805Z",
+    "maxScore": 30,
+    "isCompleted": true,
+    "id": "zxfe8a6p4mdm59hct",
+    "endTime": "2025-07-27T20:41:49.351Z",
+    "totalScore": 10,
+    "timeSpent": 21
+  },
+  {
+    "candidateId": "c1",
+    "testId": "3uecqjurkmdlwcrhu",
+    "answers": [],
+    "startTime": "2025-07-27T20:51:19.181Z",
+    "maxScore": 20,
+    "isCompleted": false,
+    "id": "au8rstoa3mdm5me60"
+  },
+  {
+    "candidateId": "c1",
+    "testId": "div5wwsygmdmqsfos",
+    "answers": [
+      {
+        "questionId": "q1",
+        "answer": "A programming language for web development",
+        "timeSpent": 0
+      },
+      {
+        "questionId": "q2",
+        "answer": "Javascript",
+        "timeSpent": 0
+      }
+    ],
+    "startTime": "2025-07-28T06:45:05.120Z",
+    "maxScore": 15,
+    "isCompleted": true,
+    "id": "d7lp3vhllmdmqtzbg",
+    "endTime": "2025-07-28T06:46:28.439Z",
+    "totalScore": 15,
+    "timeSpent": 77
+  }
+]
