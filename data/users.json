@@ -1,16 +1,16 @@
 [
   {
     "id": "u1",
-    "name": "HR Manager",
-    "email": "hr@company.com",
-    "role": "hr",
+    "name": "Assessments Manager",
+    "email": "assessments@company.com",
+    "role": "assessments",
     "createdAt": "2025-07-26T22:41:39.145Z"
   },
   {
     "id": "u2",
     "name": "John Doe",
     "email": "john.doe@example.com",
-    "role": "candidate",
+    "role": "take-assessment",
     "createdAt": "2025-07-26T22:41:39.145Z"
   }
 ]

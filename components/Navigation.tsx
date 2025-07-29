@@ -2,28 +2,29 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Home, Users, FileText, BarChart3, Settings } from 'lucide-react';
+import { Home, Users, FileText, BarChart3, Settings, BookOpen } from 'lucide-react';
 
 interface NavigationProps {
-  role: 'hr' | 'candidate';
+  role: 'assessments' | 'take-assessment';
 }
 
 export default function Navigation({ role }: NavigationProps) {
   const pathname = usePathname();
 
   const hrNavItems = [
-    { href: '/hr/dashboard', label: 'Dashboard', icon: Home },
-    { href: '/hr/questions', label: 'Questions', icon: FileText },
-    { href: '/hr/tests', label: 'Tests', icon: BarChart3 },
-    { href: '/hr/candidates', label: 'Candidates', icon: Users },
+    { href: '/assessments/assessments', label: 'Assessments', icon: FileText },
+    { href: '/assessments/questions', label: 'Questions', icon: FileText },
+    { href: '/assessments/candidates', label: 'Candidates', icon: Users },
   ];
 
   const candidateNavItems = [
     { href: '/candidate/dashboard', label: 'Dashboard', icon: Home },
+    { href: '/assessment', label: 'Take Assessment', icon: BookOpen },
+    { href: '/assessment/practice', label: 'Practice', icon: BookOpen },
     { href: '/candidate/results', label: 'Results', icon: BarChart3 },
   ];
 
-  const navItems = role === 'hr' ? hrNavItems : candidateNavItems;
+  const navItems = role === 'assessments' ? hrNavItems : candidateNavItems;
 
   return (
     <nav className="bg-white shadow-sm border-b">
@@ -59,7 +60,7 @@ export default function Navigation({ role }: NavigationProps) {
 
           <div className="flex items-center gap-4">
             <span className="text-sm text-gray-600 capitalize">
-              {role} Panel
+              {role === 'assessments' ? 'Assessments' : 'Take Assessment'}
             </span>
             <Link
               href="/"

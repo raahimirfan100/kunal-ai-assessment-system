@@ -65,7 +65,7 @@ export interface User {
   id: string;
   name: string;
   email: string;
-  role: 'hr' | 'candidate';
+  role: 'assessments' | 'take-assessment';
   createdAt: string;
 }
 

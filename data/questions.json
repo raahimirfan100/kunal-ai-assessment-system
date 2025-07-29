@@ -46,15 +46,7 @@
     "createdAt": "2025-07-26T22:49:19.394Z",
     "updatedAt": "2025-07-26T22:49:19.394Z"
   },
-  {
-    "type": "drag-drop",
-    "title": "AI",
-    "content": "what is AI",
-    "points": 10,
-    "id": "wmvkq07swmdm0woby",
-    "createdAt": "2025-07-27T18:39:20.878Z",
-    "updatedAt": "2025-07-27T18:39:20.878Z"
-  },
+
   {
     "type": "mcq",
     "title": "AI1",

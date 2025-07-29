@@ -368,16 +368,16 @@ export const initializeDummyData = () => {
     const dummyUsers: User[] = [
       {
         id: 'u1',
-        name: 'HR Manager',
-        email: 'hr@company.com',
-        role: 'hr',
+            name: 'Assessments Manager',
+    email: 'assessments@company.com',
+    role: 'assessments',
         createdAt: new Date().toISOString(),
       },
       {
         id: 'u2',
         name: 'John Doe',
         email: 'john.doe@example.com',
-        role: 'candidate',
+        role: 'take-assessment',
         createdAt: new Date().toISOString(),
       },
     ];

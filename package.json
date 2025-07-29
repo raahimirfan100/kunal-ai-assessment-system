@@ -23,7 +23,9 @@
     "react-syntax-highlighter": "^15.5.0",
     "@types/react-syntax-highlighter": "^15.5.0",
     "uuid": "^9.0.0",
-    "@types/uuid": "^9.0.0"
+    "@types/uuid": "^9.0.0",
+    "react-simple-code-editor": "^0.14.1",
+    "prismjs": "^1.30.0"
   },
   "devDependencies": {
     "eslint": "^8.0.0",

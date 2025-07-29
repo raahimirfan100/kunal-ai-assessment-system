@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Users, UserCheck, ArrowRight } from 'lucide-react';
 
 export default function Home() {
-  const [selectedRole, setSelectedRole] = useState<'hr' | 'candidate' | null>(null);
+  const [selectedRole, setSelectedRole] = useState<'assessments' | 'take-assessment' | null>(null);
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
@@ -30,7 +30,7 @@ export default function Home() {
                 <Users className="w-8 h-8 text-blue-600" />
               </div>
               <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-                HR Panel
+                Assessments
               </h2>
               <p className="text-gray-600 mb-6">
                 Create and manage assessments, assign tests to candidates, and review results.
@@ -43,10 +43,10 @@ export default function Home() {
                 <li>• Set time limits and scoring</li>
               </ul>
               <Link 
-                href="/hr/dashboard"
+                href="/assessments/dashboard"
                 className="btn-primary inline-flex items-center gap-2"
               >
-                Access HR Panel
+                Access Assessments
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
@@ -59,7 +59,7 @@ export default function Home() {
                 <UserCheck className="w-8 h-8 text-green-600" />
               </div>
               <h2 className="text-2xl font-semibold text-gray-900 mb-3">
-                Candidate Panel
+                Take Assessment
               </h2>
               <p className="text-gray-600 mb-6">
                 Take assigned assessments, view results, and track your progress.
@@ -75,7 +75,7 @@ export default function Home() {
                 href="/candidate/dashboard"
                 className="btn-primary inline-flex items-center gap-2"
               >
-                Access Candidate Panel
+                Access Take Assessment
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
