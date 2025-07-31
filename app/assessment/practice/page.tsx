@@ -87,7 +87,7 @@ export default function PracticePage() {
           
           // Extract available types
           const types = [...new Set(data.map((q: Question) => q.type))];
-          setAvailableTypes(types);
+          setAvailableTypes(types as string[]);
         } else {
           // Fallback to default questions
           const defaultQuestions: Question[] = [

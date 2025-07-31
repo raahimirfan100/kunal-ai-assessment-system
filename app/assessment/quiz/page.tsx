@@ -153,11 +153,7 @@ export default function QuizPage() {
                 boxShadow: '0 2px 8px rgba(25, 118, 210, 0.08)',
                 padding: '1.5rem',
                 transition: 'all 0.2s ease',
-                cursor: 'pointer',
-                ':hover': {
-                  boxShadow: '0 4px 16px rgba(25, 118, 210, 0.15)',
-                  borderColor: '#1976d2'
-                }
+                cursor: 'pointer'
               }} onMouseEnter={(e) => {
                 e.currentTarget.style.boxShadow = '0 4px 16px rgba(25, 118, 210, 0.15)';
                 e.currentTarget.style.borderColor = '#1976d2';
@@ -204,10 +200,7 @@ export default function QuizPage() {
                   fontSize: '1rem',
                   textDecoration: 'none',
                   textAlign: 'center',
-                  transition: 'background 0.2s ease',
-                  ':hover': {
-                    background: '#1251a3'
-                  }
+                  transition: 'background 0.2s ease'
                 }} onMouseEnter={(e) => {
                   e.currentTarget.style.background = '#1251a3';
                 }} onMouseLeave={(e) => {
@@ -229,4 +222,4 @@ export default function QuizPage() {
       </footer>
     </div>
   );
-} 
+}

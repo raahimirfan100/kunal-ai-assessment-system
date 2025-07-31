@@ -71,7 +71,7 @@ export default function PracticeSessionPage() {
         questions: [
           {
             id: '1',
-            type: 'MCQ',
+            type: 'MCQ' as 'MCQ' | 'Code',
             question: 'What is the output of: console.log(typeof null)?',
             options: ['object', 'null', 'undefined', 'number'],
             answer: 'object',
@@ -80,7 +80,7 @@ export default function PracticeSessionPage() {
           },
           {
             id: '2',
-            type: 'Code',
+            type: 'Code' as 'MCQ' | 'Code',
             question: 'Write a function named add that returns the sum of two numbers.',
             starterCode: 'function add(a, b) {\n  // your code here\n}',
             answer: 'function add(a, b) { return a + b; }',
@@ -89,7 +89,7 @@ export default function PracticeSessionPage() {
           },
           {
             id: '3',
-            type: 'Code',
+            type: 'Code' as 'MCQ' | 'Code',
             question: 'Write a function that reverses a string.',
             starterCode: 'function reverseString(str) {\n  // your code here\n}',
             answer: 'function reverseString(str) { return str.split("").reverse().join(""); }',
@@ -106,7 +106,7 @@ export default function PracticeSessionPage() {
         questions: [
           {
             id: '1',
-            type: 'Code',
+            type: 'Code' as 'MCQ' | 'Code',
             question: 'Write a function that calculates the factorial of a number.',
             starterCode: 'def factorial(n):\n    # your code here\n    pass',
             answer: 'def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n-1)',
@@ -115,7 +115,7 @@ export default function PracticeSessionPage() {
           },
           {
             id: '2',
-            type: 'Code',
+            type: 'Code' as 'MCQ' | 'Code',
             question: 'Write a function that checks if a number is prime.',
             starterCode: 'def is_prime(n):\n    # your code here\n    pass',
             answer: 'def is_prime(n):\n    if n < 2:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True',

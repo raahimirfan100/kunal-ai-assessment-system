@@ -95,7 +95,7 @@ export default function AssessmentSessionPage() {
         questions: [
           {
             id: '1',
-            type: 'MCQ',
+            type: 'MCQ' as 'MCQ' | 'Code',
             question: 'What is the output of: console.log(typeof null)?',
             options: ['object', 'null', 'undefined', 'number'],
             answer: 'object',
@@ -104,7 +104,7 @@ export default function AssessmentSessionPage() {
           },
           {
             id: '2',
-            type: 'MCQ',
+            type: 'MCQ' as 'MCQ' | 'Code',
             question: 'Which method is used to add an element to the end of an array?',
             options: ['push()', 'pop()', 'shift()', 'unshift()'],
             answer: 'push()',
@@ -113,7 +113,7 @@ export default function AssessmentSessionPage() {
           },
           {
             id: '3',
-            type: 'Code',
+            type: 'Code' as 'MCQ' | 'Code',
             question: 'Write a function named add that returns the sum of two numbers.',
             starterCode: 'function add(a, b) {\n  // your code here\n}',
             answer: 'function add(a, b) { return a + b; }',
@@ -131,7 +131,7 @@ export default function AssessmentSessionPage() {
         questions: [
           {
             id: '1',
-            type: 'MCQ',
+            type: 'MCQ' as 'MCQ' | 'Code',
             question: 'Which keyword is used to define a function in Python?',
             options: ['function', 'def', 'lambda', 'fun'],
             answer: 'def',
@@ -140,7 +140,7 @@ export default function AssessmentSessionPage() {
           },
           {
             id: '2',
-            type: 'Code',
+            type: 'Code' as 'MCQ' | 'Code',
             question: 'Write a function that calculates the factorial of a number.',
             starterCode: 'def factorial(n):\n    # your code here\n    pass',
             answer: 'def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n-1)',
